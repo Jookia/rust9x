@@ -49,6 +49,9 @@ const STAGE0_MISSING_TARGETS: &[&str] = &[
     "aarch64v8r-unknown-none",
     "aarch64v8r-unknown-none-softfloat",
     "s390x-unknown-none-softfloat",
+    "i586-rust9x-windows-msvc",
+    "i686-rust9x-windows-msvc",
+    "x86_64-rust9x-windows-msvc",
 ];
 
 /// Minimum version threshold for libstdc++ required when using prebuilt LLVM
